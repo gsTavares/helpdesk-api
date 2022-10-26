@@ -23,7 +23,7 @@ import com.gustavo.helpdesk.domain.dtos.ClienteDTO;
 import com.gustavo.helpdesk.services.ClienteService;
 
 @RestController // Define um controlador REST
-@RequestMapping(value = "/clientes ") // URL inicial
+@RequestMapping(value = "/clientes") // URL inicial
 public class ClienteResource {
 
     @Autowired
